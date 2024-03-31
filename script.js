@@ -2,7 +2,7 @@ import { config } from "dotenv";
 config();
 
 import { Configuration, OpenAIApi } from "openai";
-import readline from "readline";
+import readline from "readline";     
 
 const openAi = new OpenAIApi(
   new Configuration({
