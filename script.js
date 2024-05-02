@@ -14,7 +14,7 @@ const userInterface = readline.createInterface({
   input: process.stdin,
   output: process.stdout,
 });
-
+     
 userInterface.prompt();
 userInterface.on("line", async input => {
   const response = await openAi.createChatCompletion({
