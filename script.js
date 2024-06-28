@@ -3,7 +3,7 @@ config();
 
 import { Configuration, OpenAIApi } from "openai";
 import readline from "readline";     
-
+  
 const openAi = new OpenAIApi(
   new Configuration({
     apiKey: process.env.OPEN_AI_API_KEY,
